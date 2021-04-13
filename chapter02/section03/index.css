@@ -1,0 +1,24 @@
+/* section { */
+  /* height: 100vh; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+/* } */
+
+/* .hero { */
+  /* background-image: url(./bread1.jpg); */
+  /* text-align: center; */
+  /* padding-top: 10vh; */
+/* } */
+
+body {
+  /* background-image: url(./bg1.png), url(./bg2.png); */
+  /* background-position: left top, right top; */
+  /* background-repeat: no-repeat; */
+
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  height: 100vh;
+}
