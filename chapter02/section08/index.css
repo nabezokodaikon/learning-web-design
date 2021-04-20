@@ -1,0 +1,32 @@
+body {
+  background-image: url(./bread2.jpg);
+  background-position: left top, right top;
+  background-repeat: no-repeat;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-family: m-plus-rounded-1p,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height: 100vh
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
